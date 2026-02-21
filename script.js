@@ -29,7 +29,7 @@ form.addEventListener("submit", async function (e) {
   };
 
   try {
-    const resposta = await fetch("https://script.google.com/macros/s/AKfycbzR6kjKh5OA9UVI12GS-4UBKpcfSaBf664ZWP_lwKXkHngAIKMZsI3XXl6C2JY1dhmg/exec", {
+    const resposta = await fetch("https://script.google.com/macros/s/AKfycbzeW8cXecT4jfI9L26F8jjGygIaT438WaPSFyHO-z6DV55iz8YgyGpId-xH8YrNJ0fJ/exec", {
       method: "POST",
       body: JSON.stringify(dados)
     });

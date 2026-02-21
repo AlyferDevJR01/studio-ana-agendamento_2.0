@@ -80,3 +80,4 @@ Obrigada!`;
     mensagem.innerHTML = "<p class='erro'>Erro ao conectar com o servidor.</p>";
   }
 });
+
